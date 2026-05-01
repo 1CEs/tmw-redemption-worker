@@ -1,0 +1,8 @@
+name = "tmw-redemption-worker"
+main = "src/index.ts"
+compatibility_date = "2025-05-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ALLOWED_ORIGINS = ""
+RATE_LIMIT_PER_MINUTE = "10"
