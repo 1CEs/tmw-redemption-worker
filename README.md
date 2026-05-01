@@ -59,7 +59,7 @@ Redeem a TrueMoney voucher. **Requires** `Authorization: Bearer <API_KEY>` heade
 curl -X POST http://localhost:8789/redeem \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer dev-test-key-change-me" \
-  -d '{"mobile":"0997722588","code":"019de346f8c47d3d84b6ae3664682633ccC"}'
+  -d '{"mobile":"09xxxxxxxx","code":"019AB..."}'
 ```
 
 ## Environment Variables
